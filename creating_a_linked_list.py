@@ -12,3 +12,10 @@ node4 = Node(40)
 node1.next = node2   
 node2.next = node3
 node3.next = node4
+
+# printing the linked list
+
+current = node1    # currenct -----> is the pointer that will be traversed in the list.
+while current is not None:
+    print(current.data, end="->")
+    current=current.next
