@@ -1,0 +1,1 @@
+A mixed practice repository to practice and revise topics from my curriculum across different subjects. It contains code, exercises, and practice programs organized by topic as I progress through my learning journey.
