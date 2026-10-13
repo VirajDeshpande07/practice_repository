@@ -24,3 +24,8 @@ while current is not None and current.data != 20:
 new_node.next = current.next
 current.next = new_node
 
+current = node1
+while current is not None:
+    print(current.data, end=" -> ")
+    current = current.next
+print("None")
