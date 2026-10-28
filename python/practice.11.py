@@ -4,3 +4,4 @@ with open("names.txt","r") as file:
 for name in names:
     if len(name) > 5:
         print(name)
+        
