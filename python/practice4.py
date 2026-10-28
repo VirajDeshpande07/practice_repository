@@ -1,0 +1,5 @@
+#print specific line print the 3 rd line from myfile.txt usign readline()
+file = open("sample.txt","r")
+line = file.readlines()
+print(line[2])
+file.close()
