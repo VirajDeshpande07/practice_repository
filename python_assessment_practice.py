@@ -37,6 +37,12 @@ class Student():
         print("Grade: ",self.calculate_grade())
         print("Admission Date:",self.admission_date)
 
+    #thread function for report generation
+    def generate_report():
+        print("\n Generating student report..")
+        time.sleep(3)
+        print("\nStudent report generated successfully.")
+
     #main program
     print("\n ====Student Management System===")
 
