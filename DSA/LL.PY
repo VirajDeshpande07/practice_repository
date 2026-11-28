@@ -59,14 +59,9 @@ class linkedlist:
     def display(self):
         temp = self.head
 
-        while temp:
-            print(temp.pid)
-            print(temp.pname)
-            print(temp.quantity)
-            print(temp.price)
-            
-
-            temp = temp.next
+    while temp:
+        print(temp.pid, temp.pname, temp.quantity, temp.price)
+        temp = temp.next
 
     # q5 Product with highest price
     def highest(self):
