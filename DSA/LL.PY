@@ -74,3 +74,18 @@ class linkedlist:
         temp = temp.next
 
     print(max.name, max.price)
+
+#q7 7.	Display products whose quantity is below a specified limit.
+    def low(self,limit):
+        temp = self.head
+        found = False
+
+        while temp:
+            if temp.quantity < limit:
+                print(temp.name)
+                print(temp.quantity)
+                found = True
+        temp = temp.next
+
+        if found == False:
+            print("No products below the limit")
