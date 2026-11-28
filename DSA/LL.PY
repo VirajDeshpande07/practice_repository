@@ -36,3 +36,26 @@ class linkedlist:
                 return 
             temp = temp.next
         print("Product not found")
+
+#q3 update product quantity
+    def update(self,pid,quantity):
+        temp = self.head
+
+        while temp:
+            if temp.pid == pid:
+                temp.quantity = quantity
+                print("Quantity Updated")
+                return 
+            temp = temp.next
+
+#q4 display all records
+    def display(self):
+        temp = self.head
+
+        while temp:
+            print(temp.pid)
+            print(temp.pname)
+            print(temp.quantity)
+            print(temp.price)
+
+        temp = temp.next
