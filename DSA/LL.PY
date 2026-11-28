@@ -59,3 +59,18 @@ class linkedlist:
             print(temp.price)
 
         temp = temp.next
+
+#q5 product with highest price
+    def highest(self):
+        if self.head is None:
+            print("List is empty")
+            return
+        temp = self.head
+        max = self.head
+
+        while temp:
+            if temp.price > max.price:
+                max = temp
+        temp = temp.next
+
+    print(max.name, max.price)
